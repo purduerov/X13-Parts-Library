@@ -13,23 +13,23 @@ To create a new part:
 
 	`git checkout -b NEW_BRANCH_NAME`
 
-3. Make your changes in eagle to create the part
+3. Make your changes in eagle to create the part.
 	Name each part something descriptive (HMCA1305 does not immediately tell me anything about it).
 	Download the datasheet for any part you make and save it with the part in the git repo and in the board's repo.
 
 4. Getting rid of eagle's backup files:
 
-	`git clean -n -X`  To see what files would be removed
+	`git clean -n -X`  To see what files would be removed  
 	`git clean -f -X`  To remove said files
 
 5. Add you changes with:
 
 	`git add .`
 
-6. Commit your changes (this saves them) with (replace Your message with an explanation of what was added):
+6. Commit your changes (this saves them) with (replace your message with an explanation of what was added):
 
 	`git commit -m "YOUR MESSAGE"`
-	ex: `git commit -m "Made the 4 pin molex 371/372 series miniclamp connector (part XXXX) for the backplane board."
+	ex: `git commit -m "Made the 4 pin molex 371/372 series miniclamp connector (part XXXX) for the backplane board."`
 
 7. Push your changes to the remote repo with (use the same name as before):
 
@@ -37,3 +37,4 @@ To create a new part:
 	if the branch was just created, do `git push -u origin NEW_BRANCH_NAME`
 	
 8. Open a pull request on GitHub to merge your branch into master.
+
