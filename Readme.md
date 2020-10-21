@@ -4,9 +4,9 @@ To create a new part:
 1. Before you begin work, pull recent updates from the repo with:
 
 	`git switch master`
-	Or if you're old fashioned `git checkout master`
+	Or if you're old fashioned `git checkout master`.
 
-	`git pull`
+	Then: `git pull`
 
 2. Create a new branch for your part with (replace NEW_BRANCH_NAME with your own _new_ branch name):
 	Make the branch name something descriptive like (Pi-Shield-Parts or Molex-nanofit)
@@ -33,8 +33,7 @@ To create a new part:
 
 7. Push your changes to the remote repo with (use the same name as before):
 
-	`git push`
-	if the branch was just created, do `git push -u origin NEW_BRANCH_NAME`
+	`git push`.
+	If the branch was just created, do `git push -u origin NEW_BRANCH_NAME`
 	
-8. Open a pull request on GitHub to merge your branch into master.
-
+8. Open a pull request on [GitHub](https://github.com/purduerov/X13-Parts-Library/pulls) to merge your branch into master.
