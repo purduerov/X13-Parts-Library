@@ -155,22 +155,18 @@
 </layers>
 <library>
 <packages>
-<package name="6-32-HOLE" urn="urn:adsk.eagle:footprint:38612/1" locally_modified="yes">
+<package name="6-32-HOLE" urn="urn:adsk.eagle:footprint:24384747/1">
 <circle x="0" y="0" radius="3.175" width="0.127" layer="39"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.159" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="3.175" width="0.127" layer="40"/>
 <circle x="0" y="0" radius="2.159" width="0.127" layer="42"/>
+<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <hole x="0" y="0" drill="3.81"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:38630/1" type="box">
-<description>Standoff (#4 Screw)
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
-Devices Using
-STAND-OFF</description>
+<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:24384748/2" type="empty">
 <packageinstances>
 <packageinstance name="6-32-HOLE"/>
 </packageinstances>
@@ -192,7 +188,7 @@ STAND-OFF</description>
 <devices>
 <device name="" package="6-32-HOLE">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38630/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24384748/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
