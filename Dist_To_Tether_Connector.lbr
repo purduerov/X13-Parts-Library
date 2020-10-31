@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,40 +60,26 @@
 <library>
 <packages>
 <package name="CON6_P5MM_VER_TERM-BLK_TYC">
-<pad name="1" x="0" y="0" drill="1.524" diameter="2.032"/>
-<pad name="2" x="5.08" y="0" drill="1.524" diameter="2.032"/>
-<pad name="3" x="10.16" y="0" drill="1.524" diameter="2.032"/>
-<pad name="4" x="15.24" y="0" drill="1.524" diameter="2.032"/>
-<pad name="5" x="20.32" y="0" drill="1.524" diameter="2.032"/>
-<pad name="6" x="25.4" y="0" drill="1.524" diameter="2.032"/>
+<pad name="1" x="0" y="0" drill="1.524" diameter="2.5"/>
+<pad name="2" x="5.08" y="0" drill="1.524" diameter="2.5"/>
+<pad name="3" x="10.16" y="0" drill="1.524" diameter="2.5"/>
+<pad name="4" x="15.24" y="0" drill="1.524" diameter="2.5"/>
+<pad name="5" x="20.32" y="0" drill="1.524" diameter="2.5"/>
+<pad name="6" x="25.4" y="0" drill="1.524" diameter="2.5"/>
 <wire x1="-4.0894" y1="-4.318" x2="28.4734" y2="-4.318" width="0.1524" layer="21"/>
 <wire x1="28.4734" y1="-4.318" x2="28.4734" y2="4.318" width="0.1524" layer="21"/>
 <wire x1="28.4734" y1="4.318" x2="-4.0894" y2="4.318" width="0.1524" layer="21"/>
 <wire x1="-4.0894" y1="4.318" x2="-4.0894" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="0.0508" y1="-1.524" x2="0.381" y2="-1.905" width="0.1524" layer="21" curve="-84"/>
-<wire x1="0.381" y1="-1.905" x2="-0.0508" y2="-1.524" width="0.1524" layer="21" curve="-264"/>
-<text x="-2.6162" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="-2.6162" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="26.8478" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">6</text>
-<text x="26.8478" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">6</text>
-<text x="10.4648" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="9.1948" y="-3.175" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-3.9624" y1="-4.1656" x2="28.3464" y2="-4.1656" width="0.1524" layer="51"/>
 <wire x1="28.3464" y1="-4.1656" x2="28.3464" y2="4.1656" width="0.1524" layer="51"/>
 <wire x1="28.3464" y1="4.1656" x2="-3.9624" y2="4.1656" width="0.1524" layer="51"/>
 <wire x1="-3.9624" y1="4.1656" x2="-3.9624" y2="-4.1656" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
-<text x="-2.6162" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="-2.6162" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="26.8478" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">6</text>
-<text x="26.8478" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">6</text>
-<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="22" curve="-180"/>
-<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="22" curve="-180"/>
-<text x="-1.4478" y="-0.635" size="1.27" layer="22" ratio="6" rot="SMR0">1</text>
-<text x="-1.4478" y="-0.635" size="1.27" layer="22" ratio="6" rot="SMR0">1</text>
-<text x="28.0162" y="-0.635" size="1.27" layer="22" ratio="6" rot="SMR0">6</text>
-<text x="28.0162" y="-0.635" size="1.27" layer="22" ratio="6" rot="SMR0">6</text>
-<text x="8.9154" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="8.9154" y="2.54" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-4.445" y1="4.445" x2="28.575" y2="4.445" width="0.1524" layer="39"/>
+<wire x1="28.575" y1="4.445" x2="28.575" y2="-4.445" width="0.1524" layer="39"/>
+<wire x1="28.575" y1="-4.445" x2="-4.445" y2="-4.445" width="0.1524" layer="39"/>
+<wire x1="-4.445" y1="-4.445" x2="-4.445" y2="4.445" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
