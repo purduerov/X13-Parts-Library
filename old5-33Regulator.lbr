@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,32 +59,57 @@
 </layers>
 <library>
 <packages>
-<package name="LM2576">
+<package name="VOLTAGEREGULATOR">
+<smd name="1" x="0" y="0" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="2" x="1.27" y="0" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="0" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="4" x="3.81" y="0" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="8" x="0" y="5.2" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="7" x="1.27" y="5.2" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="5.2" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<smd name="5" x="3.81" y="5.2" dx="0.8" dy="0.42" layer="1" rot="R90"/>
+<rectangle x1="-0.545" y1="0.5" x2="4.355" y2="4.75" layer="51"/>
+<wire x1="-0.55" y1="4.75" x2="-0.55" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="4.35" y1="4.75" x2="4.35" y2="0.5" width="0.1524" layer="21"/>
+<text x="-1.27" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="LM2576">
-<pin name="GND" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="FEEDBACK" x="12.7" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="OFF" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="VOUT" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="VIN" x="12.7" y="-5.08" length="middle" direction="in" rot="R180"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<pin name="TAB_GND" x="-17.78" y="-5.08" length="middle"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="5-33REGULATOR">
+<pin name="VOUT" x="-15.24" y="10.16" length="middle"/>
+<pin name="VO_S" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VCC" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="EN" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="N.C.4" x="-15.24" y="-10.16" length="middle"/>
+<pin name="N.C.6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="N.C.7" x="12.7" y="2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM2576">
+<deviceset name="5-33REGULATOR">
 <gates>
-<gate name="G$1" symbol="LM2576" x="2.54" y="0"/>
+<gate name="G$1" symbol="5-33REGULATOR" x="-25.4" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="VOLTAGEREGULATOR">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="N.C.4" pad="4"/>
+<connect gate="G$1" pin="N.C.6" pad="6"/>
+<connect gate="G$1" pin="N.C.7" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VO_S" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
