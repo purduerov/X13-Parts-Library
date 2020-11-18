@@ -58,7 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="ULN2003V12">
+<package name="16-SOIC">
 <circle x="-4.445" y="5.045" radius="0.1" width="0.2" layer="21"/>
 <circle x="-4.445" y="5.045" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-2" y1="5" x2="2" y2="5" width="0.127" layer="51"/>
@@ -116,12 +116,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ULN2003V12" prefix="U">
+<deviceset name="ULN2003AD" prefix="U">
 <gates>
 <gate name="G$1" symbol="TRANSISTOR-ARRAY7" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ULN2003V12">
+<device name="" package="16-SOIC">
 <connects>
 <connect gate="G$1" pin="COM" pad="9"/>
 <connect gate="G$1" pin="GND" pad="8"/>
