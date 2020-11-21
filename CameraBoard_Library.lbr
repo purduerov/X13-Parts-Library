@@ -191,70 +191,6 @@
 <text x="0" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="14" y="0" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="SMB_STM">
-<smd name="1" x="-1.9939" y="0" dx="2.3114" dy="2.2606" layer="1"/>
-<smd name="2" x="1.9939" y="0" dx="2.3114" dy="2.2606" layer="1"/>
-<wire x1="-2.286" y1="-1.1176" x2="-2.286" y2="-0.9906" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.9906" x2="-2.286" y2="0.9906" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0.9906" x2="-2.286" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.1176" x2="-2.794" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="1.1176" x2="-2.794" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="-1.1176" x2="-2.286" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="1.1176" x2="2.286" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-1.0922" x2="2.794" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-1.0922" x2="2.794" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="1.1176" x2="2.286" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-3.7846" y1="0" x2="-4.8006" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-5.0546" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0.635" x2="-4.8006" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.8006" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.127" width="0.1524" layer="51"/>
-<wire x1="-4.0386" y1="0.635" x2="-4.0386" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0.9906" x2="-1.3208" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.9906" x2="-1.3208" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-1.9812" x2="2.286" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-1.9812" x2="2.286" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="1.9812" x2="-2.286" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.9812" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="-3.7846" y1="0" x2="-4.8006" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-5.0546" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0.635" x2="-4.8006" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.8006" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="0.127" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="-4.8006" y1="0" x2="-4.0386" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="-4.0386" y1="0.635" x2="-4.0386" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="-2.1082" x2="2.4384" y2="-2.1082" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="-2.1082" x2="2.4384" y2="-1.4732" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="2.1082" x2="-2.4384" y2="2.1082" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="2.1082" x2="-2.4384" y2="1.4732" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="-1.4732" x2="-2.4384" y2="-2.1082" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="1.4732" x2="2.4384" y2="2.1082" width="0.1524" layer="21"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="1.9304"/>
-<vertex x="0.7874" y="1.9304"/>
-<vertex x="0.7874" y="-1.9304"/>
-<vertex x="-0.7874" y="-1.9304"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
 <package name="L4978D013TR">
 <wire x1="-3.8" y1="-5.25" x2="3.8" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-3.8" y1="5.25" x2="3.8" y2="5.25" width="0.127" layer="21"/>
@@ -4004,70 +3940,6 @@
 <pad name="5V" x="11.1408" y="1.27" drill="1.016" diameter="1.778"/>
 <pad name="RXD" x="11.1408" y="24.13" drill="1.016" diameter="1.778"/>
 </package>
-<package name="SMB_STM-L">
-<smd name="1" x="-1.9431" y="0" dx="2.0066" dy="2.2098" layer="1"/>
-<smd name="2" x="1.9431" y="0" dx="2.0066" dy="2.2098" layer="1"/>
-<wire x1="-2.286" y1="-1.1176" x2="-2.286" y2="-0.9906" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.9906" x2="-2.286" y2="0.9906" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0.9906" x2="-2.286" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.1176" x2="-2.794" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="1.1176" x2="-2.794" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="-1.1176" x2="-2.286" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="1.1176" x2="2.3114" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="2.3114" y1="-1.0922" x2="2.794" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-1.0922" x2="2.794" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="1.1176" x2="2.286" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-3.5814" y1="0" x2="-4.5974" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-4.8514" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0.635" x2="-4.5974" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-4.5974" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.127" width="0.1524" layer="51"/>
-<wire x1="-3.8354" y1="0.635" x2="-3.8354" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0.9906" x2="-1.3208" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.9906" x2="-1.3208" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-1.9812" x2="2.286" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-1.9812" x2="2.286" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="1.9812" x2="-2.286" y2="1.9812" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.9812" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
-<wire x1="-3.5814" y1="0" x2="-4.5974" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-4.8514" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0.635" x2="-4.5974" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-4.5974" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="0.127" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="-4.5974" y1="0" x2="-3.8354" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="-3.8354" y1="0.635" x2="-3.8354" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="-2.1082" x2="2.4384" y2="-2.1082" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="-2.1082" x2="2.4384" y2="-1.4478" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="2.1082" x2="-2.4384" y2="2.1082" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="2.1082" x2="-2.4384" y2="1.4478" width="0.1524" layer="21"/>
-<wire x1="-2.4384" y1="-1.4478" x2="-2.4384" y2="-2.1082" width="0.1524" layer="21"/>
-<wire x1="2.4384" y1="1.4478" x2="2.4384" y2="2.1082" width="0.1524" layer="21"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.889" y="1.9304"/>
-<vertex x="0.889" y="1.9304"/>
-<vertex x="0.889" y="-1.9304"/>
-<vertex x="-0.889" y="-1.9304"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
 <package name="TERM_BLOCK_PLUG_8POS_STR_2.5MM">
 <wire x1="0" y1="0" x2="0" y2="7.5" width="0.127" layer="21"/>
 <wire x1="0" y1="7.5" x2="21.7" y2="7.5" width="0.127" layer="21"/>
@@ -4764,35 +4636,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="SMB_STM">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STPS3L60U" constant="no"/>
-<attribute name="SOURCELIBRARY" value="StMicro_2011-06-07" constant="no"/>
-<attribute name="VENDOR" value="STMicroelectronics" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="SMB_STM-M" package="SMB_STM-M">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STPS3L60U" constant="no"/>
-<attribute name="SOURCELIBRARY" value="StMicro_2011-06-07" constant="no"/>
-<attribute name="VENDOR" value="STMicroelectronics" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SMB_STM-L" package="SMB_STM-L">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
