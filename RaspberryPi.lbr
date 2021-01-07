@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -42,12 +42,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -220,6 +220,88 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <text x="6" y="37" size="0.8128" layer="49">J4</text>
 <text x="29.21" y="43.18" size="1.778" layer="49">Raspberry Pi 2 Model B V1.1</text>
 </package>
+<package name="RPI4">
+<description>Package for the Raspberry Pi 2 board created by www.elemenet14.com based on documented dimensions and board measurements.
+For more documentation, please visit http://www.raspberrypi.org/documentation/hardware/raspberrypi/</description>
+<wire x1="0" y1="53" x2="0" y2="3" width="0.127" layer="49"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.127" layer="49" curve="90"/>
+<wire x1="3" y1="0" x2="82" y2="0" width="0.127" layer="49"/>
+<wire x1="82" y1="0" x2="85" y2="3" width="0.127" layer="49" curve="90"/>
+<wire x1="85" y1="3" x2="85" y2="53" width="0.127" layer="49"/>
+<wire x1="85" y1="53" x2="82" y2="56" width="0.127" layer="49" curve="90"/>
+<wire x1="82" y1="56" x2="3" y2="56" width="0.127" layer="49"/>
+<wire x1="3" y1="56" x2="0" y2="53" width="0.127" layer="49" curve="90"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<hole x="3.5" y="52.5" drill="2.75"/>
+<hole x="61.5" y="52.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3.04795" width="0.127" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0.127" layer="51"/>
+<circle x="61.5" y="52.5" radius="3" width="0.127" layer="51"/>
+<circle x="3.5" y="52.5" radius="3" width="0.127" layer="51"/>
+<wire x1="88" y1="20.3" x2="88" y2="33.7" width="0.127" layer="49"/>
+<wire x1="88" y1="37.75" x2="88" y2="53.75" width="0.127" layer="49"/>
+<wire x1="88" y1="53.75" x2="66.45" y2="53.75" width="0.127" layer="49"/>
+<wire x1="58.239" y1="55.0018" x2="6.739" y2="55.0018" width="0.127" layer="21"/>
+<wire x1="6.739" y1="55.0018" x2="6.739" y2="51.0018" width="0.127" layer="21"/>
+<wire x1="6.739" y1="51.0018" x2="7.739" y2="50.0018" width="0.127" layer="21"/>
+<wire x1="7.739" y1="50.0018" x2="58.239" y2="50.0018" width="0.127" layer="21"/>
+<wire x1="58.239" y1="50.0018" x2="58.239" y2="55.0018" width="0.127" layer="21"/>
+<pad name="1" x="8.37" y="51.23" drill="1.016" diameter="1.651" shape="square"/>
+<pad name="2" x="8.3566" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="3" x="10.8966" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="4" x="10.8966" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="5" x="13.4366" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="6" x="13.4366" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="7" x="15.9766" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="8" x="15.9766" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="9" x="18.5166" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="10" x="18.5166" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="11" x="21.0566" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="12" x="21.0566" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="13" x="23.5966" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="14" x="23.5966" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="15" x="26.1366" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="16" x="26.1366" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="17" x="28.6766" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="18" x="28.6766" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="19" x="31.2166" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="20" x="31.2166" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="21" x="33.7566" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="22" x="33.7566" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="23" x="36.2966" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="24" x="36.2966" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="25" x="38.8366" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="26" x="38.8366" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="27" x="41.3766" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="28" x="41.3766" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="29" x="43.9166" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="30" x="43.9166" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="31" x="46.4566" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="32" x="46.4566" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="33" x="48.9966" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="34" x="48.9966" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="35" x="51.5366" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="36" x="51.5366" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="37" x="54.0766" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="38" x="54.0766" y="53.7718" drill="1.016" diameter="1.651"/>
+<pad name="39" x="56.6166" y="51.2318" drill="1.016" diameter="1.651"/>
+<pad name="40" x="56.6166" y="53.7718" drill="1.016" diameter="1.651"/>
+<wire x1="88" y1="20.3" x2="70.32" y2="20.3" width="0.127" layer="49"/>
+<wire x1="70.32" y1="20.3" x2="70.32" y2="33.7" width="0.127" layer="49"/>
+<wire x1="70.32" y1="33.7" x2="88" y2="33.7" width="0.127" layer="49"/>
+<wire x1="66.45" y1="53.75" x2="66.45" y2="37.75" width="0.127" layer="49"/>
+<wire x1="66.45" y1="37.75" x2="88" y2="37.75" width="0.127" layer="49"/>
+<text x="29.21" y="43.18" size="1.778" layer="49">Raspberry Pi 4</text>
+<text x="72" y="46" size="1.27" layer="49">Ethernet</text>
+<text x="74" y="27" size="1.27" layer="49">USB 3.0</text>
+<wire x1="88" y1="2.3" x2="88" y2="15.7" width="0.127" layer="49"/>
+<wire x1="88" y1="2.3" x2="70.2" y2="2.3" width="0.127" layer="49"/>
+<wire x1="70.2" y1="2.3" x2="70.2" y2="15.7" width="0.127" layer="49"/>
+<wire x1="70.2" y1="15.7" x2="88" y2="15.7" width="0.127" layer="49"/>
+<text x="74" y="9" size="1.27" layer="49">USB 2.0</text>
+<text x="9" y="47" size="1.27" layer="49">GPIO</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RPI2">
@@ -335,6 +417,77 @@ unconnected if ID EEPROM not required.</text>
 <text x="13.462" y="43.688" size="1.778" layer="94">J9</text>
 <text x="20.32" y="12.7" size="1.778" layer="94">J1</text>
 </symbol>
+<symbol name="RPI4">
+<description>Symbol for the Raspberry Pi 2 Single Board Computer created by www.element14.com
+For more documentation, visit http://www.raspberrypi.org/documentation/hardware/raspberrypi/</description>
+<pin name="3V3@1" x="10.16" y="71.12" length="short" rot="R90"/>
+<pin name="5V@2" x="10.16" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO2" x="15.24" y="71.12" length="short" rot="R90"/>
+<pin name="5V@4" x="15.24" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO3" x="20.32" y="71.12" length="short" rot="R90"/>
+<pin name="GND@6" x="20.32" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO4" x="25.4" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO14" x="25.4" y="99.06" length="short" rot="R270"/>
+<pin name="GND@9" x="30.48" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO15" x="30.48" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO17" x="35.56" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO18" x="35.56" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO27" x="40.64" y="71.12" length="short" rot="R90"/>
+<pin name="GND@14" x="40.64" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO22" x="45.72" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO23" x="45.72" y="99.06" length="short" rot="R270"/>
+<pin name="3V3@17" x="50.8" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO24" x="50.8" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO10" x="55.88" y="71.12" length="short" rot="R90"/>
+<pin name="GND@20" x="55.88" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO9" x="60.96" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO25" x="60.96" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO11" x="66.04" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO8" x="66.04" y="99.06" length="short" rot="R270"/>
+<pin name="GND@25" x="71.12" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO7" x="71.12" y="99.06" length="short" rot="R270"/>
+<pin name="ID_SD*" x="76.2" y="71.12" length="short" rot="R90"/>
+<pin name="ID_SC*" x="76.2" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO5" x="81.28" y="71.12" length="short" rot="R90"/>
+<pin name="GND@30" x="81.28" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO6" x="86.36" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO12" x="86.36" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO13" x="91.44" y="71.12" length="short" rot="R90"/>
+<pin name="GND@34" x="91.44" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO19" x="96.52" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO16" x="96.52" y="99.06" length="short" rot="R270"/>
+<pin name="GPIO26" x="101.6" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO20" x="101.6" y="99.06" length="short" rot="R270"/>
+<pin name="GND@39" x="106.68" y="71.12" length="short" rot="R90"/>
+<pin name="GPIO21" x="106.68" y="99.06" length="short" rot="R270"/>
+<text x="96.52" y="66.04" size="1.778" layer="95">*ID_SD and ID_SC PINS:</text>
+<text x="96.52" y="54.61" size="1.016" layer="95">These pins are reserved for ID EEPROM
+
+At boot time this I2C interface will be
+interrogated to look for an EEPROM
+that identifies the attached board and
+allows automagic setup of the GPIOs
+(and optionally, Linux drivers).</text>
+<text x="96.52" y="48.26" size="1.016" layer="95" ratio="24" distance="60">DO NOT USE these pins for anything other
+than attaching an I2C ID EEPROM. Leave
+unconnected if ID EEPROM not required.</text>
+<wire x1="7.62" y1="96.52" x2="109.22" y2="96.52" width="0.254" layer="94" style="shortdash"/>
+<wire x1="109.22" y1="96.52" x2="109.22" y2="73.66" width="0.254" layer="94" style="shortdash"/>
+<wire x1="109.22" y1="73.66" x2="7.62" y2="73.66" width="0.254" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="73.66" x2="7.62" y2="96.52" width="0.254" layer="94" style="shortdash"/>
+<text x="5.08" y="76.2" size="1.778" layer="95" rot="R90">GPIO Expansion</text>
+<rectangle x1="127" y1="66.04" x2="165.1" y2="96.52" layer="94"/>
+<rectangle x1="132.08" y1="38.1" x2="165.1" y2="60.96" layer="94"/>
+<rectangle x1="132.08" y1="10.16" x2="165.1" y2="33.02" layer="94"/>
+<wire x1="0" y1="0" x2="160.02" y2="0" width="0.254" layer="94"/>
+<wire x1="160.02" y1="0" x2="160.02" y2="101.6" width="0.254" layer="94"/>
+<wire x1="160.02" y1="101.6" x2="0" y2="101.6" width="0.254" layer="94"/>
+<wire x1="0" y1="101.6" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="43.18" y="50.8" size="5.08" layer="94">Raspberry Pi 4</text>
+<text x="124.46" y="91.44" size="1.778" layer="94" rot="R270">ETHERNET</text>
+<text x="129.54" y="55.88" size="1.778" layer="94" rot="R270">USB 3.0</text>
+<text x="129.54" y="27.94" size="1.778" layer="94" rot="R270">USB 2.0</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RPI2" prefix="PCB">
@@ -345,6 +498,60 @@ More information and support community is available at http://www.element14.com/
 </gates>
 <devices>
 <device name="" package="RPI2">
+<connects>
+<connect gate="G$1" pin="3V3@1" pad="1"/>
+<connect gate="G$1" pin="3V3@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@30" pad="30"/>
+<connect gate="G$1" pin="GND@34" pad="34"/>
+<connect gate="G$1" pin="GND@39" pad="39"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GPIO10" pad="19"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO14" pad="8"/>
+<connect gate="G$1" pin="GPIO15" pad="10"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO2" pad="3"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22" pad="15"/>
+<connect gate="G$1" pin="GPIO23" pad="16"/>
+<connect gate="G$1" pin="GPIO24" pad="18"/>
+<connect gate="G$1" pin="GPIO25" pad="22"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27" pad="13"/>
+<connect gate="G$1" pin="GPIO3" pad="5"/>
+<connect gate="G$1" pin="GPIO4" pad="7"/>
+<connect gate="G$1" pin="GPIO5" pad="29"/>
+<connect gate="G$1" pin="GPIO6" pad="31"/>
+<connect gate="G$1" pin="GPIO7" pad="26"/>
+<connect gate="G$1" pin="GPIO8" pad="24"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="ID_SC*" pad="28"/>
+<connect gate="G$1" pin="ID_SD*" pad="27"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RPI4">
+<gates>
+<gate name="G$1" symbol="RPI4" x="-76.2" y="-48.26"/>
+</gates>
+<devices>
+<device name="" package="RPI4">
 <connects>
 <connect gate="G$1" pin="3V3@1" pad="1"/>
 <connect gate="G$1" pin="3V3@17" pad="17"/>
