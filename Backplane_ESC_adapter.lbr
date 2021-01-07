@@ -322,445 +322,125 @@
 <rectangle x1="27.686" y1="-0.254" x2="28.194" y2="0.254" layer="51"/>
 <text x="-1.27" y="4.064" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
-<package name="BACKPLANE_ESC_ADAPTER_BKP" urn="urn:adsk.eagle:footprint:25779241/2">
-<pad name="ESC2_P3@4" x="4.826" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@3" x="2.286" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@2" x="4.826" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@1" x="2.286" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@4" x="4.826" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@3" x="2.286" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@2" x="4.826" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@1" x="2.286" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@4" x="4.826" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@3" x="2.286" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@2" x="4.826" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@1" x="2.286" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@4" x="4.826" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@3" x="2.286" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@2" x="4.826" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@1" x="2.286" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@4" x="4.826" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@3" x="2.286" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@2" x="4.826" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@1" x="2.286" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@4" x="4.826" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@3" x="2.286" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@2" x="4.826" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@1" x="2.286" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@4" x="62.992" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@3" x="60.452" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@2" x="62.992" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@1" x="60.452" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@4" x="62.992" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@3" x="60.452" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@2" x="62.992" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@1" x="60.452" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@4" x="62.992" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@3" x="60.452" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@2" x="62.992" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@1" x="60.452" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@4" x="62.992" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@3" x="60.452" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@2" x="62.992" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@1" x="60.452" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@4" x="62.992" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@3" x="60.452" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@2" x="62.992" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@1" x="60.452" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@4" x="62.992" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@3" x="60.452" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@2" x="62.992" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@1" x="60.452" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="GND@1" x="26.035" y="25.4" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@2" x="23.495" y="25.4" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@3" x="26.035" y="27.94" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@4" x="23.495" y="27.94" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@5" x="26.035" y="30.48" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@6" x="23.495" y="30.48" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@7" x="26.035" y="33.02" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@8" x="23.495" y="33.02" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@9" x="26.035" y="35.56" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@10" x="23.495" y="35.56" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@11" x="26.035" y="38.1" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@12" x="23.495" y="38.1" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@1" x="43.942" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@2" x="43.942" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@3" x="41.402" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@4" x="41.402" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@5" x="38.862" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@6" x="38.862" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@7" x="36.322" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@8" x="36.322" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@9" x="33.782" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@10" x="33.782" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@11" x="31.242" y="33.782" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@12" x="31.242" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<rectangle x1="4.572" y1="2.794" x2="5.08" y2="3.302" layer="51"/>
-<rectangle x1="2.032" y1="2.794" x2="2.54" y2="3.302" layer="51"/>
-<rectangle x1="2.032" y1="5.334" x2="2.54" y2="5.842" layer="51"/>
-<rectangle x1="4.572" y1="5.334" x2="5.08" y2="5.842" layer="51"/>
-<rectangle x1="2.032" y1="7.874" x2="2.54" y2="8.382" layer="51"/>
-<rectangle x1="4.572" y1="7.874" x2="5.08" y2="8.382" layer="51"/>
-<rectangle x1="4.572" y1="10.414" x2="5.08" y2="10.922" layer="51"/>
-<rectangle x1="2.032" y1="10.414" x2="2.54" y2="10.922" layer="51"/>
-<rectangle x1="2.032" y1="12.954" x2="2.54" y2="13.462" layer="51"/>
-<rectangle x1="4.572" y1="12.954" x2="5.08" y2="13.462" layer="51"/>
-<rectangle x1="2.032" y1="15.494" x2="2.54" y2="16.002" layer="51"/>
-<rectangle x1="4.572" y1="15.494" x2="5.08" y2="16.002" layer="51"/>
-<rectangle x1="4.572" y1="18.034" x2="5.08" y2="18.542" layer="51"/>
-<rectangle x1="2.032" y1="18.034" x2="2.54" y2="18.542" layer="51"/>
-<rectangle x1="2.032" y1="20.574" x2="2.54" y2="21.082" layer="51"/>
-<rectangle x1="4.572" y1="20.574" x2="5.08" y2="21.082" layer="51"/>
-<rectangle x1="2.032" y1="23.114" x2="2.54" y2="23.622" layer="51"/>
-<rectangle x1="4.572" y1="23.114" x2="5.08" y2="23.622" layer="51"/>
-<rectangle x1="4.572" y1="25.654" x2="5.08" y2="26.162" layer="51"/>
-<rectangle x1="2.032" y1="25.654" x2="2.54" y2="26.162" layer="51"/>
-<rectangle x1="2.032" y1="28.194" x2="2.54" y2="28.702" layer="51"/>
-<rectangle x1="4.572" y1="28.194" x2="5.08" y2="28.702" layer="51"/>
-<rectangle x1="2.032" y1="30.734" x2="2.54" y2="31.242" layer="51"/>
-<rectangle x1="4.572" y1="30.734" x2="5.08" y2="31.242" layer="51"/>
-<rectangle x1="62.738" y1="2.794" x2="63.246" y2="3.302" layer="51"/>
-<rectangle x1="60.198" y1="2.794" x2="60.706" y2="3.302" layer="51"/>
-<rectangle x1="60.198" y1="5.334" x2="60.706" y2="5.842" layer="51"/>
-<rectangle x1="62.738" y1="5.334" x2="63.246" y2="5.842" layer="51"/>
-<rectangle x1="60.198" y1="7.874" x2="60.706" y2="8.382" layer="51"/>
-<rectangle x1="62.738" y1="7.874" x2="63.246" y2="8.382" layer="51"/>
-<rectangle x1="62.738" y1="10.414" x2="63.246" y2="10.922" layer="51"/>
-<rectangle x1="60.198" y1="10.414" x2="60.706" y2="10.922" layer="51"/>
-<rectangle x1="60.198" y1="12.954" x2="60.706" y2="13.462" layer="51"/>
-<rectangle x1="62.738" y1="12.954" x2="63.246" y2="13.462" layer="51"/>
-<rectangle x1="60.198" y1="15.494" x2="60.706" y2="16.002" layer="51"/>
-<rectangle x1="62.738" y1="15.494" x2="63.246" y2="16.002" layer="51"/>
-<rectangle x1="62.738" y1="18.034" x2="63.246" y2="18.542" layer="51"/>
-<rectangle x1="60.198" y1="18.034" x2="60.706" y2="18.542" layer="51"/>
-<rectangle x1="60.198" y1="20.574" x2="60.706" y2="21.082" layer="51"/>
-<rectangle x1="62.738" y1="20.574" x2="63.246" y2="21.082" layer="51"/>
-<rectangle x1="60.198" y1="23.114" x2="60.706" y2="23.622" layer="51"/>
-<rectangle x1="62.738" y1="23.114" x2="63.246" y2="23.622" layer="51"/>
-<rectangle x1="62.738" y1="25.654" x2="63.246" y2="26.162" layer="51"/>
-<rectangle x1="60.198" y1="25.654" x2="60.706" y2="26.162" layer="51"/>
-<rectangle x1="60.198" y1="28.194" x2="60.706" y2="28.702" layer="51"/>
-<rectangle x1="62.738" y1="28.194" x2="63.246" y2="28.702" layer="51"/>
-<rectangle x1="60.198" y1="30.734" x2="60.706" y2="31.242" layer="51"/>
-<rectangle x1="62.738" y1="30.734" x2="63.246" y2="31.242" layer="51"/>
-<wire x1="0" y1="0" x2="65.786" y2="0" width="0" layer="51"/>
-<wire x1="65.786" y1="0" x2="65.786" y2="33.274" width="0" layer="51"/>
-<wire x1="65.786" y1="33.274" x2="59.436" y2="39.624" width="0" layer="51"/>
-<wire x1="59.436" y1="39.624" x2="6.604" y2="39.624" width="0" layer="51"/>
-<wire x1="6.604" y1="39.624" x2="0" y2="33.02" width="0" layer="51"/>
-<wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="51"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.1" layer="51"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="23.94" width="0.1" layer="51"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.1" layer="51"/>
-<wire x1="27.302" y1="23.94" x2="27.302" y2="39.56" width="0.1" layer="51"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.2" layer="21"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.2" layer="21"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="39.085" width="0.2" layer="21"/>
-<wire x1="22.352" y1="24.415" x2="22.352" y2="23.94" width="0.2" layer="21"/>
-<wire x1="27.302" y1="24.415" x2="27.302" y2="23.94" width="0.2" layer="21"/>
-<wire x1="27.302" y1="39.085" x2="27.302" y2="39.56" width="0.2" layer="21"/>
-<wire x1="27.492" y1="39.81" x2="22.162" y2="39.81" width="0.05" layer="39"/>
-<wire x1="22.162" y1="39.81" x2="22.162" y2="23.69" width="0.05" layer="39"/>
-<wire x1="22.162" y1="23.69" x2="27.492" y2="23.69" width="0.05" layer="39"/>
-<wire x1="27.492" y1="23.69" x2="27.492" y2="39.81" width="0.05" layer="39"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.1" layer="51"/>
-<wire x1="29.782" y1="32.512" x2="45.402" y2="32.512" width="0.1" layer="51"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.1" layer="51"/>
-<wire x1="45.402" y1="37.462" x2="29.782" y2="37.462" width="0.1" layer="51"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.2" layer="21"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.2" layer="21"/>
-<wire x1="29.782" y1="32.512" x2="30.257" y2="32.512" width="0.2" layer="21"/>
-<wire x1="44.927" y1="32.512" x2="45.402" y2="32.512" width="0.2" layer="21"/>
-<wire x1="44.927" y1="37.462" x2="45.402" y2="37.462" width="0.2" layer="21"/>
-<wire x1="30.257" y1="37.462" x2="29.782" y2="37.462" width="0.2" layer="21"/>
-<wire x1="29.532" y1="37.652" x2="29.532" y2="32.322" width="0.05" layer="39"/>
-<wire x1="29.532" y1="32.322" x2="45.652" y2="32.322" width="0.05" layer="39"/>
-<wire x1="45.652" y1="32.322" x2="45.652" y2="37.652" width="0.05" layer="39"/>
-<wire x1="45.652" y1="37.652" x2="29.532" y2="37.652" width="0.05" layer="39"/>
-<wire x1="0.635" y1="32.385" x2="6.35" y2="32.385" width="0.127" layer="39"/>
-<wire x1="6.35" y1="32.385" x2="6.35" y2="1.27" width="0.127" layer="39"/>
-<wire x1="6.35" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="39"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="32.385" width="0.127" layer="39"/>
-<wire x1="59.055" y1="32.385" x2="64.77" y2="32.385" width="0.127" layer="39"/>
-<wire x1="64.77" y1="32.385" x2="64.77" y2="1.27" width="0.127" layer="39"/>
-<wire x1="64.77" y1="1.27" x2="59.055" y2="1.27" width="0.127" layer="39"/>
-<wire x1="59.055" y1="1.27" x2="59.055" y2="32.385" width="0.127" layer="39"/>
-<text x="1.27" y="33.02" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="BACKPLANE_ESC_ADAPTER_ESC" urn="urn:adsk.eagle:footprint:25779243/2">
-<pad name="ESC2_P3@4" x="4.826" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@3" x="2.286" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@2" x="4.826" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P3@1" x="2.286" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@4" x="4.826" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@3" x="2.286" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@2" x="4.826" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P2@1" x="2.286" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@4" x="4.826" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@3" x="2.286" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@2" x="4.826" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC2_P1@1" x="2.286" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@4" x="4.826" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@3" x="2.286" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@2" x="4.826" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P3@1" x="2.286" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@4" x="4.826" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@3" x="2.286" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@2" x="4.826" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P2@1" x="2.286" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@4" x="4.826" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@3" x="2.286" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@2" x="4.826" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC1_P1@1" x="2.286" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@4" x="62.992" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@3" x="60.452" y="3.048" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@2" x="62.992" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P3@1" x="60.452" y="5.588" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@4" x="62.992" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@3" x="60.452" y="8.128" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@2" x="62.992" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P2@1" x="60.452" y="10.668" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@4" x="62.992" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@3" x="60.452" y="13.208" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@2" x="62.992" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC4_P1@1" x="60.452" y="15.748" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@4" x="62.992" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@3" x="60.452" y="18.288" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@2" x="62.992" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P3@1" x="60.452" y="20.828" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@4" x="62.992" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@3" x="60.452" y="23.368" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@2" x="62.992" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P2@1" x="60.452" y="25.908" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@4" x="62.992" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@3" x="60.452" y="28.448" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@2" x="62.992" y="30.988" drill="1.016" diameter="1.8796"/>
-<pad name="ESC3_P1@1" x="60.452" y="30.988" drill="1.016" diameter="1.8796"/>
-<rectangle x1="4.572" y1="2.794" x2="5.08" y2="3.302" layer="51"/>
-<rectangle x1="2.032" y1="2.794" x2="2.54" y2="3.302" layer="51"/>
-<rectangle x1="2.032" y1="5.334" x2="2.54" y2="5.842" layer="51"/>
-<rectangle x1="4.572" y1="5.334" x2="5.08" y2="5.842" layer="51"/>
-<rectangle x1="2.032" y1="7.874" x2="2.54" y2="8.382" layer="51"/>
-<rectangle x1="4.572" y1="7.874" x2="5.08" y2="8.382" layer="51"/>
-<rectangle x1="4.572" y1="10.414" x2="5.08" y2="10.922" layer="51"/>
-<rectangle x1="2.032" y1="10.414" x2="2.54" y2="10.922" layer="51"/>
-<rectangle x1="2.032" y1="12.954" x2="2.54" y2="13.462" layer="51"/>
-<rectangle x1="4.572" y1="12.954" x2="5.08" y2="13.462" layer="51"/>
-<rectangle x1="2.032" y1="15.494" x2="2.54" y2="16.002" layer="51"/>
-<rectangle x1="4.572" y1="15.494" x2="5.08" y2="16.002" layer="51"/>
-<rectangle x1="4.572" y1="18.034" x2="5.08" y2="18.542" layer="51"/>
-<rectangle x1="2.032" y1="18.034" x2="2.54" y2="18.542" layer="51"/>
-<rectangle x1="2.032" y1="20.574" x2="2.54" y2="21.082" layer="51"/>
-<rectangle x1="4.572" y1="20.574" x2="5.08" y2="21.082" layer="51"/>
-<rectangle x1="2.032" y1="23.114" x2="2.54" y2="23.622" layer="51"/>
-<rectangle x1="4.572" y1="23.114" x2="5.08" y2="23.622" layer="51"/>
-<rectangle x1="4.572" y1="25.654" x2="5.08" y2="26.162" layer="51"/>
-<rectangle x1="2.032" y1="25.654" x2="2.54" y2="26.162" layer="51"/>
-<rectangle x1="2.032" y1="28.194" x2="2.54" y2="28.702" layer="51"/>
-<rectangle x1="4.572" y1="28.194" x2="5.08" y2="28.702" layer="51"/>
-<rectangle x1="2.032" y1="30.734" x2="2.54" y2="31.242" layer="51"/>
-<rectangle x1="4.572" y1="30.734" x2="5.08" y2="31.242" layer="51"/>
-<rectangle x1="62.738" y1="2.794" x2="63.246" y2="3.302" layer="51"/>
-<rectangle x1="60.198" y1="2.794" x2="60.706" y2="3.302" layer="51"/>
-<rectangle x1="60.198" y1="5.334" x2="60.706" y2="5.842" layer="51"/>
-<rectangle x1="62.738" y1="5.334" x2="63.246" y2="5.842" layer="51"/>
-<rectangle x1="60.198" y1="7.874" x2="60.706" y2="8.382" layer="51"/>
-<rectangle x1="62.738" y1="7.874" x2="63.246" y2="8.382" layer="51"/>
-<rectangle x1="62.738" y1="10.414" x2="63.246" y2="10.922" layer="51"/>
-<rectangle x1="60.198" y1="10.414" x2="60.706" y2="10.922" layer="51"/>
-<rectangle x1="60.198" y1="12.954" x2="60.706" y2="13.462" layer="51"/>
-<rectangle x1="62.738" y1="12.954" x2="63.246" y2="13.462" layer="51"/>
-<rectangle x1="60.198" y1="15.494" x2="60.706" y2="16.002" layer="51"/>
-<rectangle x1="62.738" y1="15.494" x2="63.246" y2="16.002" layer="51"/>
-<rectangle x1="62.738" y1="18.034" x2="63.246" y2="18.542" layer="51"/>
-<rectangle x1="60.198" y1="18.034" x2="60.706" y2="18.542" layer="51"/>
-<rectangle x1="60.198" y1="20.574" x2="60.706" y2="21.082" layer="51"/>
-<rectangle x1="62.738" y1="20.574" x2="63.246" y2="21.082" layer="51"/>
-<rectangle x1="60.198" y1="23.114" x2="60.706" y2="23.622" layer="51"/>
-<rectangle x1="62.738" y1="23.114" x2="63.246" y2="23.622" layer="51"/>
-<rectangle x1="62.738" y1="25.654" x2="63.246" y2="26.162" layer="51"/>
-<rectangle x1="60.198" y1="25.654" x2="60.706" y2="26.162" layer="51"/>
-<rectangle x1="60.198" y1="28.194" x2="60.706" y2="28.702" layer="51"/>
-<rectangle x1="62.738" y1="28.194" x2="63.246" y2="28.702" layer="51"/>
-<rectangle x1="60.198" y1="30.734" x2="60.706" y2="31.242" layer="51"/>
-<rectangle x1="62.738" y1="30.734" x2="63.246" y2="31.242" layer="51"/>
-<wire x1="0" y1="0" x2="65.786" y2="0" width="0" layer="52"/>
-<wire x1="65.786" y1="0" x2="65.786" y2="33.274" width="0" layer="52"/>
-<wire x1="65.786" y1="33.274" x2="59.436" y2="39.624" width="0" layer="52"/>
-<wire x1="59.436" y1="39.624" x2="6.604" y2="39.624" width="0" layer="52"/>
-<wire x1="6.604" y1="39.624" x2="0" y2="33.02" width="0" layer="52"/>
-<wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="52"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.1" layer="52"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="23.94" width="0.1" layer="52"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.1" layer="52"/>
-<wire x1="27.302" y1="23.94" x2="27.302" y2="39.56" width="0.1" layer="52"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.2" layer="22"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.2" layer="22"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="39.085" width="0.2" layer="22"/>
-<wire x1="22.352" y1="24.415" x2="22.352" y2="23.94" width="0.2" layer="22"/>
-<wire x1="27.302" y1="24.415" x2="27.302" y2="23.94" width="0.2" layer="22"/>
-<wire x1="27.302" y1="39.085" x2="27.302" y2="39.56" width="0.2" layer="22"/>
-<wire x1="29.397" y1="39.81" x2="20.257" y2="39.81" width="0.05" layer="40"/>
-<wire x1="20.257" y1="39.81" x2="20.257" y2="23.69" width="0.05" layer="40"/>
-<wire x1="20.257" y1="23.69" x2="29.397" y2="23.69" width="0.05" layer="40"/>
-<wire x1="29.397" y1="23.69" x2="29.397" y2="39.81" width="0.05" layer="40"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.1" layer="52"/>
-<wire x1="29.782" y1="32.512" x2="45.402" y2="32.512" width="0.1" layer="52"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.1" layer="52"/>
-<wire x1="45.402" y1="37.462" x2="29.782" y2="37.462" width="0.1" layer="52"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.2" layer="22"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.2" layer="22"/>
-<wire x1="29.782" y1="32.512" x2="30.257" y2="32.512" width="0.2" layer="22"/>
-<wire x1="44.927" y1="32.512" x2="45.402" y2="32.512" width="0.2" layer="22"/>
-<wire x1="44.927" y1="37.462" x2="45.402" y2="37.462" width="0.2" layer="22"/>
-<wire x1="30.257" y1="37.462" x2="29.782" y2="37.462" width="0.2" layer="22"/>
-<wire x1="29.532" y1="39.557" x2="29.532" y2="30.417" width="0.05" layer="40"/>
-<wire x1="29.532" y1="30.417" x2="45.652" y2="30.417" width="0.05" layer="40"/>
-<wire x1="45.652" y1="30.417" x2="45.652" y2="39.557" width="0.05" layer="40"/>
-<wire x1="45.652" y1="39.557" x2="29.532" y2="39.557" width="0.05" layer="40"/>
-<smd name="GND@1" x="27.686" y="25.4" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@2" x="21.968" y="25.4" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@3" x="27.686" y="27.94" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@4" x="21.968" y="27.94" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@5" x="27.686" y="30.48" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@6" x="21.968" y="30.48" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@7" x="27.686" y="33.02" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@8" x="21.968" y="33.02" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@9" x="27.686" y="35.56" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@10" x="21.968" y="35.56" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@11" x="27.686" y="38.1" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@12" x="21.968" y="38.1" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="12V@1" x="43.942" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@2" x="43.942" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@3" x="41.402" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@4" x="41.402" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@5" x="38.862" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@6" x="38.862" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@7" x="36.322" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@8" x="36.322" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@9" x="33.782" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@10" x="33.782" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@11" x="31.242" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@12" x="31.242" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<text x="1.27" y="33.02" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="BACKPLANE_ESC_ADAPTER_ESC_PWR">
-<wire x1="-17.78" y1="0" x2="83.82" y2="0" width="0" layer="52"/>
-<wire x1="83.82" y1="0" x2="83.82" y2="39.624" width="0" layer="52"/>
-<wire x1="83.82" y1="39.624" x2="-17.78" y2="39.624" width="0" layer="52"/>
-<wire x1="-17.78" y1="39.624" x2="-17.78" y2="0" width="0" layer="52"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.1" layer="52"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="23.94" width="0.1" layer="52"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.1" layer="52"/>
-<wire x1="27.302" y1="23.94" x2="27.302" y2="39.56" width="0.1" layer="52"/>
-<wire x1="27.302" y1="39.56" x2="22.352" y2="39.56" width="0.2" layer="22"/>
-<wire x1="22.352" y1="23.94" x2="27.302" y2="23.94" width="0.2" layer="22"/>
-<wire x1="22.352" y1="39.56" x2="22.352" y2="39.085" width="0.2" layer="22"/>
-<wire x1="22.352" y1="24.415" x2="22.352" y2="23.94" width="0.2" layer="22"/>
-<wire x1="27.302" y1="24.415" x2="27.302" y2="23.94" width="0.2" layer="22"/>
-<wire x1="27.302" y1="39.085" x2="27.302" y2="39.56" width="0.2" layer="22"/>
-<wire x1="29.397" y1="39.81" x2="20.257" y2="39.81" width="0.05" layer="40"/>
-<wire x1="20.257" y1="39.81" x2="20.257" y2="23.69" width="0.05" layer="40"/>
-<wire x1="20.257" y1="23.69" x2="29.397" y2="23.69" width="0.05" layer="40"/>
-<wire x1="29.397" y1="23.69" x2="29.397" y2="39.81" width="0.05" layer="40"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.1" layer="52"/>
-<wire x1="29.782" y1="32.512" x2="45.402" y2="32.512" width="0.1" layer="52"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.1" layer="52"/>
-<wire x1="45.402" y1="37.462" x2="29.782" y2="37.462" width="0.1" layer="52"/>
-<wire x1="29.782" y1="37.462" x2="29.782" y2="32.512" width="0.2" layer="22"/>
-<wire x1="45.402" y1="32.512" x2="45.402" y2="37.462" width="0.2" layer="22"/>
-<wire x1="29.782" y1="32.512" x2="30.257" y2="32.512" width="0.2" layer="22"/>
-<wire x1="44.927" y1="32.512" x2="45.402" y2="32.512" width="0.2" layer="22"/>
-<wire x1="44.927" y1="37.462" x2="45.402" y2="37.462" width="0.2" layer="22"/>
-<wire x1="30.257" y1="37.462" x2="29.782" y2="37.462" width="0.2" layer="22"/>
-<wire x1="29.532" y1="39.557" x2="29.532" y2="30.417" width="0.05" layer="40"/>
-<wire x1="29.532" y1="30.417" x2="45.652" y2="30.417" width="0.05" layer="40"/>
-<wire x1="45.652" y1="30.417" x2="45.652" y2="39.557" width="0.05" layer="40"/>
-<wire x1="45.652" y1="39.557" x2="29.532" y2="39.557" width="0.05" layer="40"/>
-<smd name="GND@1" x="27.686" y="25.4" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@2" x="21.968" y="25.4" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@3" x="27.686" y="27.94" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@4" x="21.968" y="27.94" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@5" x="27.686" y="30.48" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@6" x="21.968" y="30.48" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@7" x="27.686" y="33.02" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@8" x="21.968" y="33.02" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@9" x="27.686" y="35.56" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@10" x="21.968" y="35.56" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@11" x="27.686" y="38.1" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="GND@12" x="21.968" y="38.1" dx="1.778" dy="2.286" layer="16" rot="R270"/>
-<smd name="12V@1" x="43.942" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@2" x="43.942" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@3" x="41.402" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@4" x="41.402" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@5" x="38.862" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@6" x="38.862" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@7" x="36.322" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@8" x="36.322" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@9" x="33.782" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@10" x="33.782" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@11" x="31.242" y="37.846" dx="1.778" dy="2.286" layer="16"/>
-<smd name="12V@12" x="31.242" y="32.128" dx="1.778" dy="2.286" layer="16"/>
-<text x="1.27" y="33.02" size="1.27" layer="25">&gt;NAME</text>
+<pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@4" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@5" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@6" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@7" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@8" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@9" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@10" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@11" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@12" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="12V@1" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@2" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@3" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@4" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@5" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@6" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@7" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@8" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@9" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="51"/>
+<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="51"/>
+<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="51"/>
+<text x="22.86" y="35.179" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.1" layer="51"/>
+<wire x1="35.624" y1="40.067" x2="66.484" y2="40.067" width="0.1" layer="51"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.1" layer="51"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.1" layer="51"/>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="21"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="21"/>
+<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="21"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="21"/>
+<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="39"/>
+<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="39"/>
+<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="39"/>
+<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="39"/>
+</package>
+<package name="SAMTEC_IPS1-110-01-L-D">
+<wire x1="-24.32" y1="-1.205" x2="-24.32" y2="3.745" width="0.1" layer="51"/>
+<wire x1="-24.32" y1="3.745" x2="1.46" y2="3.745" width="0.1" layer="51"/>
+<wire x1="1.46" y1="3.745" x2="1.46" y2="-1.205" width="0.1" layer="51"/>
+<wire x1="1.46" y1="-1.205" x2="-24.32" y2="-1.205" width="0.1" layer="51"/>
+<wire x1="-24.32" y1="-1.205" x2="-24.32" y2="3.745" width="0.2" layer="21"/>
+<wire x1="1.46" y1="3.745" x2="1.46" y2="-1.205" width="0.2" layer="21"/>
+<wire x1="1.46" y1="3.745" x2="-24.32" y2="3.745" width="0.2" layer="21"/>
+<wire x1="1.46" y1="-1.205" x2="-24.32" y2="-1.205" width="0.2" layer="21"/>
+<wire x1="-24.57" y1="-1.455" x2="-24.57" y2="3.995" width="0.05" layer="39"/>
+<wire x1="-24.57" y1="3.995" x2="1.71" y2="3.995" width="0.05" layer="39"/>
+<wire x1="1.71" y1="3.995" x2="1.71" y2="-1.455" width="0.05" layer="39"/>
+<wire x1="1.71" y1="-1.455" x2="-24.57" y2="-1.455" width="0.05" layer="39"/>
+<text x="-25.32" y="4.995" size="1.27" layer="25">&gt;NAME</text>
+<text x="-25.32" y="-3.705" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="2.11" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="2.11" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="01" x="0" y="0" drill="1.04" diameter="1.39" shape="square"/>
+<pad name="02" x="0" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="03" x="-2.54" y="0" drill="1.04" diameter="1.39"/>
+<pad name="04" x="-2.54" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="05" x="-5.08" y="0" drill="1.04" diameter="1.39"/>
+<pad name="06" x="-5.08" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="07" x="-7.62" y="0" drill="1.04" diameter="1.39"/>
+<pad name="08" x="-7.62" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="09" x="-10.16" y="0" drill="1.04" diameter="1.39"/>
+<pad name="10" x="-10.16" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="11" x="-12.7" y="0" drill="1.04" diameter="1.39"/>
+<pad name="12" x="-12.7" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="13" x="-15.24" y="0" drill="1.04" diameter="1.39"/>
+<pad name="14" x="-15.24" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="15" x="-17.78" y="0" drill="1.04" diameter="1.39"/>
+<pad name="16" x="-17.78" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="17" x="-20.32" y="0" drill="1.04" diameter="1.39"/>
+<pad name="18" x="-20.32" y="2.54" drill="1.04" diameter="1.39"/>
+<pad name="19" x="-22.86" y="0" drill="1.04" diameter="1.39"/>
+<pad name="20" x="-22.86" y="2.54" drill="1.04" diameter="1.39"/>
 </package>
 <package name="BACKPLANE_ESC_ADAPTER_BKP_PWR">
-<pad name="GND@1" x="-2.54" y="-11.43" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@2" x="-5.08" y="-11.43" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@3" x="-2.54" y="-8.89" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@4" x="-5.08" y="-8.89" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@5" x="-2.54" y="-6.35" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@6" x="-5.08" y="-6.35" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@7" x="-2.54" y="-3.81" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@8" x="-5.08" y="-3.81" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@9" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@10" x="-5.08" y="-1.27" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@11" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@12" x="-5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@1" x="15.367" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@2" x="15.367" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@3" x="12.827" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@4" x="12.827" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@5" x="10.287" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@6" x="10.287" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@7" x="7.747" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@8" x="7.747" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@9" x="5.207" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@10" x="5.207" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@11" x="2.667" y="-3.048" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@12" x="2.667" y="-0.508" drill="1.016" diameter="1.8796" rot="R180"/>
-<wire x1="-46.355" y1="-36.83" x2="55.245" y2="-36.83" width="0" layer="51"/>
-<wire x1="55.245" y1="-36.83" x2="55.245" y2="2.794" width="0" layer="51"/>
-<wire x1="55.245" y1="2.794" x2="-46.355" y2="2.794" width="0" layer="51"/>
-<wire x1="-46.355" y1="2.794" x2="-46.355" y2="-36.83" width="0" layer="51"/>
-<wire x1="-1.273" y1="2.73" x2="-6.223" y2="2.73" width="0.1" layer="51"/>
-<wire x1="-6.223" y1="2.73" x2="-6.223" y2="-12.89" width="0.1" layer="51"/>
-<wire x1="-6.223" y1="-12.89" x2="-1.273" y2="-12.89" width="0.1" layer="51"/>
-<wire x1="-1.273" y1="-12.89" x2="-1.273" y2="2.73" width="0.1" layer="51"/>
-<wire x1="-1.273" y1="2.73" x2="-6.223" y2="2.73" width="0.2" layer="21"/>
-<wire x1="-6.223" y1="-12.89" x2="-1.273" y2="-12.89" width="0.2" layer="21"/>
-<wire x1="-6.223" y1="2.73" x2="-6.223" y2="2.255" width="0.2" layer="21"/>
-<wire x1="-6.223" y1="-12.415" x2="-6.223" y2="-12.89" width="0.2" layer="21"/>
-<wire x1="-1.273" y1="-12.415" x2="-1.273" y2="-12.89" width="0.2" layer="21"/>
-<wire x1="-1.273" y1="2.255" x2="-1.273" y2="2.73" width="0.2" layer="21"/>
-<wire x1="-1.083" y1="2.98" x2="-6.413" y2="2.98" width="0.05" layer="39"/>
-<wire x1="-6.413" y1="2.98" x2="-6.413" y2="-13.14" width="0.05" layer="39"/>
-<wire x1="-6.413" y1="-13.14" x2="-1.083" y2="-13.14" width="0.05" layer="39"/>
-<wire x1="-1.083" y1="-13.14" x2="-1.083" y2="2.98" width="0.05" layer="39"/>
-<wire x1="1.207" y1="0.632" x2="1.207" y2="-4.318" width="0.1" layer="51"/>
-<wire x1="1.207" y1="-4.318" x2="16.827" y2="-4.318" width="0.1" layer="51"/>
-<wire x1="16.827" y1="-4.318" x2="16.827" y2="0.632" width="0.1" layer="51"/>
-<wire x1="16.827" y1="0.632" x2="1.207" y2="0.632" width="0.1" layer="51"/>
-<wire x1="1.207" y1="0.632" x2="1.207" y2="-4.318" width="0.2" layer="21"/>
-<wire x1="16.827" y1="-4.318" x2="16.827" y2="0.632" width="0.2" layer="21"/>
-<wire x1="1.207" y1="-4.318" x2="1.682" y2="-4.318" width="0.2" layer="21"/>
-<wire x1="16.352" y1="-4.318" x2="16.827" y2="-4.318" width="0.2" layer="21"/>
-<wire x1="16.352" y1="0.632" x2="16.827" y2="0.632" width="0.2" layer="21"/>
-<wire x1="1.682" y1="0.632" x2="1.207" y2="0.632" width="0.2" layer="21"/>
-<wire x1="0.957" y1="0.822" x2="0.957" y2="-4.508" width="0.05" layer="39"/>
-<wire x1="0.957" y1="-4.508" x2="17.077" y2="-4.508" width="0.05" layer="39"/>
-<wire x1="17.077" y1="-4.508" x2="17.077" y2="0.822" width="0.05" layer="39"/>
-<wire x1="17.077" y1="0.822" x2="0.957" y2="0.822" width="0.05" layer="39"/>
-<text x="1.905" y="-7.62" size="1.27" layer="25">&gt;NAME</text>
+<pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@4" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@5" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@6" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@7" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@8" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@9" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@10" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@11" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@12" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="12V@1" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@2" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@3" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@4" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@5" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@6" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@7" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@8" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@9" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="52"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="52"/>
+<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="52"/>
+<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="52"/>
+<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
+<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
+<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
+<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
+<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
 </package>
 </packages>
 <packages3d>
@@ -780,16 +460,6 @@
 &lt;/ul&gt;&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="2X12"/>
-</packageinstances>
-</package3d>
-<package3d name="BACKPLANE_ESC_ADAPTER_BKP" urn="urn:adsk.eagle:package:25779246/3" type="model">
-<packageinstances>
-<packageinstance name="BACKPLANE_ESC_ADAPTER_BKP"/>
-</packageinstances>
-</package3d>
-<package3d name="BACKPLANE_ESC_ADAPTER_ESC" urn="urn:adsk.eagle:package:25779247/3" type="model">
-<packageinstances>
-<packageinstance name="BACKPLANE_ESC_ADAPTER_ESC"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -826,76 +496,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BACKPLANE_ESC_ADAPTER_BKP">
-<description>Uses samtec IPT1-110-01-L-D and IPT1-115-01-L-D (must be cut)</description>
-<gates>
-<gate name="G$1" symbol="LUMENIER_QUAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BACKPLANE_ESC_ADAPTER_BKP">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
-<connect gate="G$1" pin="M1P1" pad="ESC1_P1@1 ESC1_P1@2 ESC1_P1@3 ESC1_P1@4"/>
-<connect gate="G$1" pin="M1P2" pad="ESC1_P2@1 ESC1_P2@2 ESC1_P2@3 ESC1_P2@4"/>
-<connect gate="G$1" pin="M1P3" pad="ESC1_P3@1 ESC1_P3@2 ESC1_P3@3 ESC1_P3@4"/>
-<connect gate="G$1" pin="M2P1" pad="ESC2_P1@1 ESC2_P1@2 ESC2_P1@3 ESC2_P1@4"/>
-<connect gate="G$1" pin="M2P2" pad="ESC2_P2@1 ESC2_P2@2 ESC2_P2@3 ESC2_P2@4"/>
-<connect gate="G$1" pin="M2P3" pad="ESC2_P3@1 ESC2_P3@2 ESC2_P3@3 ESC2_P3@4"/>
-<connect gate="G$1" pin="M3P1" pad="ESC3_P1@1 ESC3_P1@2 ESC3_P1@3 ESC3_P1@4"/>
-<connect gate="G$1" pin="M3P2" pad="ESC3_P2@1 ESC3_P2@2 ESC3_P2@3 ESC3_P2@4"/>
-<connect gate="G$1" pin="M3P3" pad="ESC3_P3@1 ESC3_P3@2 ESC3_P3@3 ESC3_P3@4"/>
-<connect gate="G$1" pin="M4P1" pad="ESC4_P1@1 ESC4_P1@2 ESC4_P1@3 ESC4_P1@4"/>
-<connect gate="G$1" pin="M4P2" pad="ESC4_P2@1 ESC4_P2@2 ESC4_P2@3 ESC4_P2@4"/>
-<connect gate="G$1" pin="M4P3" pad="ESC4_P3@1 ESC4_P3@2 ESC4_P3@3 ESC4_P3@4"/>
-<connect gate="G$1" pin="VIN" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25779246/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BACKPLANE_ESC_ADAPTER_ESC">
-<description>Uses samtec IPS1-110-01-L-D-VS and IPS1-115-01-L-D (must be cut)</description>
-<gates>
-<gate name="G$1" symbol="LUMENIER_QUAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BACKPLANE_ESC_ADAPTER_ESC">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
-<connect gate="G$1" pin="M1P1" pad="ESC1_P1@1 ESC1_P1@2 ESC1_P1@3 ESC1_P1@4"/>
-<connect gate="G$1" pin="M1P2" pad="ESC1_P2@1 ESC1_P2@2 ESC1_P2@3 ESC1_P2@4"/>
-<connect gate="G$1" pin="M1P3" pad="ESC1_P3@1 ESC1_P3@2 ESC1_P3@3 ESC1_P3@4"/>
-<connect gate="G$1" pin="M2P1" pad="ESC2_P1@1 ESC2_P1@2 ESC2_P1@3 ESC2_P1@4"/>
-<connect gate="G$1" pin="M2P2" pad="ESC2_P2@1 ESC2_P2@2 ESC2_P2@3 ESC2_P2@4"/>
-<connect gate="G$1" pin="M2P3" pad="ESC2_P3@1 ESC2_P3@2 ESC2_P3@3 ESC2_P3@4"/>
-<connect gate="G$1" pin="M3P1" pad="ESC3_P1@1 ESC3_P1@2 ESC3_P1@3 ESC3_P1@4"/>
-<connect gate="G$1" pin="M3P2" pad="ESC3_P2@1 ESC3_P2@2 ESC3_P2@3 ESC3_P2@4"/>
-<connect gate="G$1" pin="M3P3" pad="ESC3_P3@1 ESC3_P3@2 ESC3_P3@3 ESC3_P3@4"/>
-<connect gate="G$1" pin="M4P1" pad="ESC4_P1@1 ESC4_P1@2 ESC4_P1@3 ESC4_P1@4"/>
-<connect gate="G$1" pin="M4P2" pad="ESC4_P2@1 ESC4_P2@2 ESC4_P2@3 ESC4_P2@4"/>
-<connect gate="G$1" pin="M4P3" pad="ESC4_P3@1 ESC4_P3@2 ESC4_P3@3 ESC4_P3@4"/>
-<connect gate="G$1" pin="VIN" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25779247/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BACKPLANE_ESC_ADAPTER_ESC_PWR">
+<deviceset name="BACKPLANE_ESC_ADAPTER_PWR">
 <gates>
 <gate name="G$1" symbol="PWR_RETURN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BACKPLANE_ESC_ADAPTER_ESC_PWR">
+<device name="ESC" package="BACKPLANE_ESC_ADAPTER_ESC_PWR">
 <connects>
 <connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
 <connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
@@ -904,14 +510,7 @@
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="BACKPLANE_ESC_ADAPTER_BKP_PWR">
-<gates>
-<gate name="G$1" symbol="PWR_RETURN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BACKPLANE_ESC_ADAPTER_BKP_PWR">
+<device name="BKP" package="BACKPLANE_ESC_ADAPTER_BKP_PWR">
 <connects>
 <connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
 <connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
