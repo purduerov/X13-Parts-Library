@@ -158,7 +158,43 @@
 </layers>
 <library>
 <packages>
-<package name="BKP-TO-SOL_TMM-111-01-T-D" urn="urn:adsk.eagle:footprint:25179488/1" locally_modified="yes">
+<package name="MMS-111-01-DV" urn="urn:adsk.eagle:footprint:25885907/1">
+<pad name="1" x="0" y="0" drill="0.75" diameter="1.35"/>
+<pad name="2" x="0" y="2" drill="0.75" diameter="1.35"/>
+<pad name="3" x="2" y="0" drill="0.75" diameter="1.35"/>
+<pad name="4" x="2" y="2" drill="0.75" diameter="1.35"/>
+<pad name="5" x="4" y="0" drill="0.75" diameter="1.35"/>
+<pad name="6" x="4" y="2" drill="0.75" diameter="1.35"/>
+<pad name="7" x="6" y="0" drill="0.75" diameter="1.35"/>
+<pad name="8" x="6" y="2" drill="0.75" diameter="1.35"/>
+<pad name="9" x="8" y="0" drill="0.75" diameter="1.35"/>
+<pad name="10" x="8" y="2" drill="0.75" diameter="1.35"/>
+<pad name="11" x="10" y="0" drill="0.75" diameter="1.35"/>
+<pad name="12" x="10" y="2" drill="0.75" diameter="1.35"/>
+<pad name="13" x="12" y="0" drill="0.75" diameter="1.35"/>
+<pad name="14" x="12" y="2" drill="0.75" diameter="1.35"/>
+<pad name="15" x="14" y="0" drill="0.75" diameter="1.35"/>
+<pad name="16" x="14" y="2" drill="0.75" diameter="1.35"/>
+<pad name="17" x="16" y="0" drill="0.75" diameter="1.35"/>
+<pad name="18" x="16" y="2" drill="0.75" diameter="1.35"/>
+<pad name="19" x="18" y="0" drill="0.75" diameter="1.35"/>
+<pad name="20" x="18" y="2" drill="0.75" diameter="1.35"/>
+<pad name="21" x="20" y="0" drill="0.75" diameter="1.35"/>
+<pad name="22" x="20" y="2" drill="0.75" diameter="1.35"/>
+<wire x1="-1" y1="-1" x2="-1" y2="3" width="0.127" layer="22"/>
+<wire x1="-1" y1="3" x2="21" y2="3" width="0.127" layer="22"/>
+<wire x1="21" y1="3" x2="21" y2="-1" width="0.127" layer="22"/>
+<wire x1="21" y1="-1" x2="-1" y2="-1" width="0.127" layer="22"/>
+<wire x1="-1.5" y1="3.5" x2="21.5" y2="3.5" width="0.127" layer="40"/>
+<wire x1="21.5" y1="3.5" x2="21.5" y2="-1.5" width="0.127" layer="40"/>
+<wire x1="21.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="40"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="3.5" width="0.127" layer="40"/>
+<wire x1="22.86" y1="-2.286" x2="22.86" y2="22.352" width="0.127" layer="52"/>
+<wire x1="22.86" y1="22.352" x2="-2.54" y2="22.352" width="0.127" layer="52"/>
+<wire x1="-2.54" y1="22.352" x2="-2.54" y2="-2.286" width="0.127" layer="52"/>
+<wire x1="-2.54" y1="-2.286" x2="22.86" y2="-2.286" width="0.127" layer="52"/>
+</package>
+<package name="BKP-TO-SOL_TMM-111-01-T-D" urn="urn:adsk.eagle:footprint:25179488/2">
 <pad name="1" x="0" y="0" drill="0.75" diameter="1.35"/>
 <pad name="2" x="0" y="2" drill="0.75" diameter="1.35"/>
 <pad name="3" x="2" y="0" drill="0.75" diameter="1.35"/>
@@ -196,7 +232,12 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="TMM-111-01-T-D" urn="urn:adsk.eagle:package:25179490/2" type="model">
+<package3d name="MMS-111-01-DV" urn="urn:adsk.eagle:package:25885912/2" type="model">
+<packageinstances>
+<packageinstance name="MMS-111-01-DV"/>
+</packageinstances>
+</package3d>
+<package3d name="TMM-111-01-T-D" urn="urn:adsk.eagle:package:25179490/3" type="model">
 <packageinstances>
 <packageinstance name="BKP-TO-SOL_TMM-111-01-T-D"/>
 </packageinstances>
@@ -259,6 +300,45 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="SOL-TO-BKP">
+<gates>
+<gate name="G$1" symbol="CONN_11X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MMS-111-01-DV">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25885912/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="BKP-TO-SOL">
 <gates>
 <gate name="G$1" symbol="CONN_11X2" x="0" y="0"/>
@@ -290,7 +370,7 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25179490/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25179490/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
