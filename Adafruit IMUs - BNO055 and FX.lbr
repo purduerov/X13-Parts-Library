@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -251,14 +251,14 @@
 <wire x1="19.304" y1="19.304" x2="19.304" y2="16.256" width="0.127" layer="39"/>
 <wire x1="19.304" y1="16.256" x2="8.636" y2="16.256" width="0.127" layer="39"/>
 <wire x1="8.636" y1="16.256" x2="8.636" y2="19.304" width="0.127" layer="39"/>
-<wire x1="0" y1="2.54" x2="0" y2="17.78" width="0.127" layer="21"/>
-<wire x1="0" y1="17.78" x2="2.54" y2="20.32" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.54" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="21"/>
-<wire x1="25.4" y1="20.32" x2="27.94" y2="17.78" width="0.127" layer="21" curve="-90"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="2.54" width="0.127" layer="21"/>
-<wire x1="27.94" y1="2.54" x2="25.4" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="25.4" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.54" x2="0" y2="17.78" width="0.127" layer="51"/>
+<wire x1="0" y1="17.78" x2="2.54" y2="20.32" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.54" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="51"/>
+<wire x1="25.4" y1="20.32" x2="27.94" y2="17.78" width="0.127" layer="51" curve="-90"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="2.54" width="0.127" layer="51"/>
+<wire x1="27.94" y1="2.54" x2="25.4" y2="0" width="0.127" layer="51" curve="-90"/>
+<wire x1="25.4" y1="0" x2="2.54" y2="0" width="0.127" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.127" layer="51" curve="-90"/>
 </package>
 <package name="ADAFRUIT-BNO055">
 <wire x1="8.255" y1="0.635" x2="7.62" y2="0" width="0.2032" layer="21"/>
@@ -353,14 +353,14 @@
 <wire x1="18.669" y1="20.574" x2="18.669" y2="17.526" width="0.127" layer="39"/>
 <wire x1="18.669" y1="17.526" x2="8.001" y2="17.526" width="0.127" layer="39"/>
 <wire x1="8.001" y1="17.526" x2="8.001" y2="20.574" width="0.127" layer="39"/>
-<wire x1="2.54" y1="20.32" x2="24.13" y2="20.32" width="0.127" layer="21"/>
-<wire x1="24.13" y1="20.32" x2="26.67" y2="17.78" width="0.127" layer="21" curve="-90"/>
-<wire x1="26.67" y1="17.78" x2="26.67" y2="2.54" width="0.127" layer="21"/>
-<wire x1="26.67" y1="2.54" x2="24.13" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="24.13" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="2.54" x2="0" y2="17.78" width="0.127" layer="21"/>
-<wire x1="0" y1="17.78" x2="2.54" y2="20.32" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="20.32" x2="24.13" y2="20.32" width="0.127" layer="51"/>
+<wire x1="24.13" y1="20.32" x2="26.67" y2="17.78" width="0.127" layer="51" curve="-90"/>
+<wire x1="26.67" y1="17.78" x2="26.67" y2="2.54" width="0.127" layer="51"/>
+<wire x1="26.67" y1="2.54" x2="24.13" y2="0" width="0.127" layer="51" curve="-90"/>
+<wire x1="24.13" y1="0" x2="2.54" y2="0" width="0.127" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.127" layer="51" curve="-90"/>
+<wire x1="0" y1="2.54" x2="0" y2="17.78" width="0.127" layer="51"/>
+<wire x1="0" y1="17.78" x2="2.54" y2="20.32" width="0.127" layer="51" curve="-90"/>
 </package>
 </packages>
 <symbols>
