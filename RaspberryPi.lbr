@@ -7,13 +7,13 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -27,25 +27,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -61,6 +61,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Raspberry Pi 2 and Raspberry Pi 4 Symbols and Footprints</description>
 <packages>
 <package name="RPI2">
 <description>Package for the Raspberry Pi 2 board created by www.elemenet14.com based on documented dimensions and board measurements.
@@ -221,11 +222,13 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <text x="29.21" y="43.18" size="1.778" layer="49">Raspberry Pi 2 Model B V1.1</text>
 </package>
 <package name="RPI4">
-<description>Package for the Raspberry Pi 2 board created by www.elemenet14.com based on documented dimensions and board measurements.
-For more documentation, please visit http://www.raspberrypi.org/documentation/hardware/raspberrypi/</description>
+<description>Footprint for Raspberry Pi 4 based on dimensions from https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/README.md</description>
 <wire x1="0" y1="53" x2="0" y2="3" width="0.127" layer="49"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0.127" layer="49" curve="90"/>
-<wire x1="3" y1="0" x2="82" y2="0" width="0.127" layer="49"/>
+<wire x1="50.5" y1="0" x2="51" y2="0" width="0.127" layer="49"/>
+<wire x1="51" y1="0" x2="57" y2="0" width="0.127" layer="49"/>
+<wire x1="57" y1="0" x2="57.5" y2="0" width="0.127" layer="49"/>
+<wire x1="57.5" y1="0" x2="82" y2="0" width="0.127" layer="49"/>
 <wire x1="82" y1="0" x2="85" y2="3" width="0.127" layer="49" curve="90"/>
 <wire x1="85" y1="3" x2="85" y2="53" width="0.127" layer="49"/>
 <wire x1="85" y1="53" x2="82" y2="56" width="0.127" layer="49" curve="90"/>
@@ -302,14 +305,49 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <text x="74" y="9" size="1.27" layer="49">USB 2.0</text>
 <text x="9" y="47" size="1.27" layer="49">GPIO</text>
 <wire x1="44.9" y1="22.7" x2="44.9" y2="0.3" width="0.127" layer="49"/>
-<wire x1="44.9" y1="0.3" x2="47.85" y2="0.3" width="0.127" layer="49"/>
-<wire x1="47.85" y1="0.3" x2="47.85" y2="3.7" width="0.127" layer="49"/>
-<wire x1="47.85" y1="3.7" x2="49" y2="4.8" width="0.127" layer="49"/>
-<wire x1="49" y1="4.8" x2="49" y2="18.2" width="0.127" layer="49"/>
-<wire x1="49" y1="18.2" x2="47.85" y2="19.35" width="0.127" layer="49"/>
-<wire x1="47.85" y1="19.35" x2="47.85" y2="22.7" width="0.127" layer="49"/>
-<wire x1="47.85" y1="22.7" x2="44.9" y2="22.7" width="0.127" layer="49"/>
+<wire x1="44.9" y1="0.3" x2="47.9" y2="0.3" width="0.127" layer="49"/>
+<wire x1="47.9" y1="0.3" x2="47.9" y2="3.3" width="0.127" layer="49"/>
+<wire x1="49.3" y1="3.3" x2="49.3" y2="19.7" width="0.127" layer="49"/>
+<wire x1="47.9" y1="19.7" x2="47.9" y2="22.7" width="0.127" layer="49"/>
+<wire x1="47.9" y1="22.7" x2="44.9" y2="22.7" width="0.127" layer="49"/>
 <text x="44" y="24" size="1.27" layer="49">Camera</text>
+<wire x1="50.5" y1="0" x2="50.5" y2="12.5" width="0.127" layer="49"/>
+<wire x1="50.5" y1="12.5" x2="57.5" y2="12.5" width="0.127" layer="49"/>
+<wire x1="57.5" y1="12.5" x2="57.5" y2="0" width="0.127" layer="49"/>
+<wire x1="51" y1="0" x2="51" y2="-2.5" width="0.127" layer="49"/>
+<wire x1="51" y1="-2.5" x2="57" y2="-2.5" width="0.127" layer="49"/>
+<wire x1="57" y1="-2.5" x2="57" y2="0" width="0.127" layer="49"/>
+<text x="51" y="14" size="1.27" layer="49">Audio Port</text>
+<wire x1="36.4" y1="-0.83" x2="36.4" y2="6.52" width="0.127" layer="49"/>
+<wire x1="36.4" y1="6.52" x2="42.6" y2="6.52" width="0.127" layer="49"/>
+<wire x1="42.6" y1="6.52" x2="42.6" y2="-0.83" width="0.127" layer="49"/>
+<wire x1="35.9" y1="-1.43" x2="43.1" y2="-1.43" width="0.127" layer="49"/>
+<wire x1="36.4" y1="-0.83" x2="35.9" y2="-1.43" width="0.127" layer="49"/>
+<wire x1="42.6" y1="-0.83" x2="43.1" y2="-1.43" width="0.127" layer="49"/>
+<wire x1="3" y1="0" x2="50.5" y2="0" width="0.127" layer="49"/>
+<wire x1="22.9" y1="-0.83" x2="22.9" y2="6.52" width="0.127" layer="49"/>
+<wire x1="22.9" y1="6.52" x2="29.1" y2="6.52" width="0.127" layer="49"/>
+<wire x1="29.1" y1="6.52" x2="29.1" y2="-0.83" width="0.127" layer="49"/>
+<wire x1="22.4" y1="-1.43" x2="29.6" y2="-1.43" width="0.127" layer="49"/>
+<wire x1="22.9" y1="-0.83" x2="22.4" y2="-1.43" width="0.127" layer="49"/>
+<wire x1="29.1" y1="-0.83" x2="29.6" y2="-1.43" width="0.127" layer="49"/>
+<text x="29" y="9" size="1.27" layer="49">micro HDMI</text>
+<wire x1="6.875" y1="6.15" x2="6.875" y2="-1.25" width="0.127" layer="49"/>
+<wire x1="6.875" y1="-1.25" x2="15.525" y2="-1.25" width="0.127" layer="49"/>
+<wire x1="15.525" y1="-1.25" x2="15.525" y2="6.15" width="0.127" layer="49"/>
+<wire x1="15.525" y1="6.15" x2="6.875" y2="6.15" width="0.127" layer="49"/>
+<text x="9" y="8" size="1.27" layer="49">USB-C</text>
+<wire x1="2.6" y1="19.8" x2="2.6" y2="16.8" width="0.127" layer="49"/>
+<wire x1="2.6" y1="16.8" x2="5.6" y2="16.8" width="0.127" layer="49"/>
+<wire x1="5.6" y1="16.8" x2="5.6" y2="39.2" width="0.127" layer="49"/>
+<wire x1="5.6" y1="39.2" x2="2.6" y2="39.2" width="0.127" layer="49"/>
+<wire x1="2.6" y1="39.2" x2="2.6" y2="36.2" width="0.127" layer="49"/>
+<wire x1="2.6" y1="36.2" x2="1.2" y2="36.2" width="0.127" layer="49"/>
+<wire x1="1.2" y1="36.2" x2="1.2" y2="19.8" width="0.127" layer="49"/>
+<wire x1="1.2" y1="19.8" x2="2.6" y2="19.8" width="0.127" layer="49"/>
+<wire x1="47.9" y1="19.7" x2="49.3" y2="19.7" width="0.127" layer="49"/>
+<wire x1="47.9" y1="3.3" x2="49.3" y2="3.3" width="0.127" layer="49"/>
+<text x="2" y="41" size="1.27" layer="49">Display</text>
 </package>
 </packages>
 <symbols>
@@ -427,8 +465,7 @@ unconnected if ID EEPROM not required.</text>
 <text x="20.32" y="12.7" size="1.778" layer="94">J1</text>
 </symbol>
 <symbol name="RPI4">
-<description>Symbol for the Raspberry Pi 2 Single Board Computer created by www.element14.com
-For more documentation, visit http://www.raspberrypi.org/documentation/hardware/raspberrypi/</description>
+<description>Symbol for Raspberry Pi 4 based on Raspberry Pi 40-Pin GPIO Layout and RPi4 features and components</description>
 <pin name="3V3@1" x="10.16" y="71.12" length="short" rot="R90"/>
 <pin name="5V@2" x="10.16" y="99.06" length="short" rot="R270"/>
 <pin name="GPIO2" x="15.24" y="71.12" length="short" rot="R90"/>
@@ -469,15 +506,15 @@ For more documentation, visit http://www.raspberrypi.org/documentation/hardware/
 <pin name="GPIO20" x="101.6" y="99.06" length="short" rot="R270"/>
 <pin name="GND@39" x="106.68" y="71.12" length="short" rot="R90"/>
 <pin name="GPIO21" x="106.68" y="99.06" length="short" rot="R270"/>
-<text x="96.52" y="66.04" size="1.778" layer="95">*ID_SD and ID_SC PINS:</text>
-<text x="96.52" y="54.61" size="1.016" layer="95">These pins are reserved for ID EEPROM
+<text x="96.52" y="50.8" size="1.778" layer="95">*ID_SD and ID_SC PINS:</text>
+<text x="96.52" y="39.37" size="1.016" layer="95">These pins are reserved for ID EEPROM
 
 At boot time this I2C interface will be
 interrogated to look for an EEPROM
 that identifies the attached board and
 allows automagic setup of the GPIOs
 (and optionally, Linux drivers).</text>
-<text x="96.52" y="48.26" size="1.016" layer="95" ratio="24" distance="60">DO NOT USE these pins for anything other
+<text x="96.52" y="33.02" size="1.016" layer="95" ratio="24" distance="60">DO NOT USE these pins for anything other
 than attaching an I2C ID EEPROM. Leave
 unconnected if ID EEPROM not required.</text>
 <wire x1="7.62" y1="96.52" x2="109.22" y2="96.52" width="0.254" layer="94" style="shortdash"/>
@@ -507,7 +544,36 @@ unconnected if ID EEPROM not required.</text>
 <vertex x="88.9" y="30.48"/>
 <vertex x="88.9" y="35.56"/>
 </polygon>
-<text x="81.28" y="10.16" size="1.778" layer="94" rot="R90">Camera Connector</text>
+<text x="81.28" y="15.24" size="1.778" layer="94" rot="R90">Camera</text>
+<polygon width="0.254" layer="94">
+<vertex x="10.16" y="33.02"/>
+<vertex x="10.16" y="66.04"/>
+<vertex x="5.08" y="66.04"/>
+<vertex x="5.08" y="63.5"/>
+<vertex x="5.08" y="60.96"/>
+<vertex x="2.54" y="60.96"/>
+<vertex x="2.54" y="38.1"/>
+<vertex x="5.08" y="38.1"/>
+<vertex x="5.08" y="33.02"/>
+</polygon>
+<text x="12.7" y="55.88" size="1.778" layer="94" rot="R270">Display</text>
+<rectangle x1="63.5" y1="-2.54" x2="76.2" y2="12.7" layer="94"/>
+<rectangle x1="40.64" y1="-2.54" x2="53.34" y2="12.7" layer="94"/>
+<rectangle x1="12.7" y1="-2.54" x2="27.94" y2="12.7" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="96.52" y="20.32"/>
+<vertex x="96.52" y="0"/>
+<vertex x="99.06" y="0"/>
+<vertex x="99.06" y="-2.54"/>
+<vertex x="106.68" y="-2.54"/>
+<vertex x="106.68" y="0"/>
+<vertex x="109.22" y="0"/>
+<vertex x="109.22" y="20.32"/>
+</polygon>
+<text x="40.64" y="15.24" size="1.778" layer="94">micro HDMI</text>
+<text x="63.5" y="15.24" size="1.778" layer="94">micro HDMI</text>
+<text x="17.78" y="15.24" size="1.778" layer="94">USB-C</text>
+<text x="109.22" y="22.86" size="1.778" layer="94" rot="R180">Audio Port</text>
 </symbol>
 </symbols>
 <devicesets>
