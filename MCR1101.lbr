@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,32 +73,29 @@
 </layers>
 <library>
 <packages>
-<package name="MCR1101">
-<smd name="IP+@4" x="-4.6" y="0.635" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP+@3" x="-4.6" y="1.905" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP+@2" x="-4.6" y="3.175" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP+" x="-4.6" y="4.445" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP-" x="-4.6" y="-0.635" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP-@2" x="-4.6" y="-1.905" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP-@3" x="-4.6" y="-3.175" dx="2.2" dy="0.7" layer="1"/>
-<smd name="IP-@4" x="-4.6" y="-4.445" dx="2.2" dy="0.7" layer="1"/>
-<smd name="VCAP" x="4.6" y="0.635" dx="2.2" dy="0.7" layer="1"/>
-<smd name="GND@2" x="4.6" y="1.905" dx="2.2" dy="0.7" layer="1"/>
-<smd name="GND@3" x="4.6" y="3.175" dx="2.2" dy="0.7" layer="1"/>
-<smd name="VOC" x="4.6" y="4.445" dx="2.2" dy="0.7" layer="1"/>
-<smd name="VOUT" x="4.6" y="-0.635" dx="2.2" dy="0.7" layer="1"/>
-<smd name="GND" x="4.6" y="-1.905" dx="2.2" dy="0.7" layer="1"/>
-<smd name="VCC" x="4.6" y="-3.175" dx="2.2" dy="0.7" layer="1"/>
-<smd name="!FAULTB" x="4.6" y="-4.445" dx="2.2" dy="0.7" layer="1"/>
+<package name="SOIC-16">
+<smd name="4" x="-4.6" y="0.635" dx="2.2" dy="0.7" layer="1"/>
+<smd name="3" x="-4.6" y="1.905" dx="2.2" dy="0.7" layer="1"/>
+<smd name="2" x="-4.6" y="3.175" dx="2.2" dy="0.7" layer="1"/>
+<smd name="1" x="-4.6" y="4.445" dx="2.2" dy="0.7" layer="1"/>
+<smd name="5" x="-4.6" y="-0.635" dx="2.2" dy="0.7" layer="1"/>
+<smd name="6" x="-4.6" y="-1.905" dx="2.2" dy="0.7" layer="1"/>
+<smd name="7" x="-4.6" y="-3.175" dx="2.2" dy="0.7" layer="1"/>
+<smd name="8" x="-4.6" y="-4.445" dx="2.2" dy="0.7" layer="1"/>
+<smd name="13" x="4.6" y="0.635" dx="2.2" dy="0.7" layer="1"/>
+<smd name="14" x="4.6" y="1.905" dx="2.2" dy="0.7" layer="1"/>
+<smd name="15" x="4.6" y="3.175" dx="2.2" dy="0.7" layer="1"/>
+<smd name="16" x="4.6" y="4.445" dx="2.2" dy="0.7" layer="1"/>
+<smd name="12" x="4.6" y="-0.635" dx="2.2" dy="0.7" layer="1"/>
+<smd name="11" x="4.6" y="-1.905" dx="2.2" dy="0.7" layer="1"/>
+<smd name="10" x="4.6" y="-3.175" dx="2.2" dy="0.7" layer="1"/>
+<smd name="9" x="4.6" y="-4.445" dx="2.2" dy="0.7" layer="1"/>
 <wire x1="-4.5" y1="6" x2="-4.5" y2="-6" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-6" x2="4.5" y2="-6" width="0.127" layer="21"/>
 <wire x1="4.5" y1="-6" x2="4.5" y2="6" width="0.127" layer="21"/>
 <wire x1="4.5" y1="6" x2="-4.5" y2="6" width="0.127" layer="21"/>
 <text x="-4.5" y="6.4" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-4.4" y="-7.1" size="0.8128" layer="27">&gt;VALUE</text>
-<text x="-2.4" y="0.338" size="0.8128" layer="49">MCR1101
-Current
-Sensor</text>
 <circle x="-2.54" y="4.826" radius="0.71841875" width="0.127" layer="21"/>
 </package>
 </packages>
@@ -126,16 +123,16 @@ Sensor</text>
 <gate name="G$1" symbol="MCR1101" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MCR1101">
+<device name="" package="SOIC-16">
 <connects>
-<connect gate="G$1" pin="!FAULTB" pad="!FAULTB"/>
-<connect gate="G$1" pin="GND" pad="GND GND@2 GND@3"/>
-<connect gate="G$1" pin="IP+" pad="IP+ IP+@2 IP+@3 IP+@4"/>
-<connect gate="G$1" pin="IP-" pad="IP- IP-@2 IP-@3 IP-@4"/>
-<connect gate="G$1" pin="VCAP" pad="VCAP"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VOC" pad="VOC"/>
-<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+<connect gate="G$1" pin="!FAULTB" pad="9"/>
+<connect gate="G$1" pin="GND" pad="11 14 15"/>
+<connect gate="G$1" pin="IP+" pad="1 2 3 4"/>
+<connect gate="G$1" pin="IP-" pad="5 6 7 8"/>
+<connect gate="G$1" pin="VCAP" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="10"/>
+<connect gate="G$1" pin="VOC" pad="16"/>
+<connect gate="G$1" pin="VOUT" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -146,10 +143,4 @@ Sensor</text>
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
